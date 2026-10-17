@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  font-family: system-ui, sans-serif;
+  background: #f4f4f8;
+  color: #222;
+}
+
+main {
+  text-align: center;
+}
+
+#status {
+  min-height: 1.5em;
+  font-size: 1.2rem;
+}
+
+#board {
+  display: grid;
+  grid-template-columns: repeat(3, 90px);
+  gap: 6px;
+  margin: 0 auto 16px;
+  width: max-content;
+}
+
+.cell {
+  width: 90px;
+  height: 90px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.cell:disabled {
+  cursor: default;
+  color: #222;
+}
+
+#new-game {
+  padding: 8px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  background: #4a4ae0;
+  color: #fff;
+  cursor: pointer;
+}
+
+table {
+  margin: 16px auto 0;
+  border-spacing: 16px 4px;
+}

@@ -1,0 +1,11 @@
+{
+  "name": "tic-tac-toe-minimax",
+  "version": "1.0.0",
+  "description": "X si 0 in browser, cu adversar calculator bazat pe minimax",
+  "type": "module",
+  "scripts": {
+    "start": "npx serve .",
+    "test": "node --test"
+  },
+  "license": "MIT"
+}
